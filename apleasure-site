@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Apleasure - Marca de Roupa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 150px;
+            margin-bottom: 10px;
+        }
+        nav {
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            background-color: #444;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        #catalogo img {
+            width: 200px;
+            height: auto;
+            margin: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho com espaço para o logotipo -->
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Logotipo Apleasure" id="logo">
+            <h1>Apleasure</h1>
+            <p>Moda com atitude e conforto.</p>
+        </div>
+    </header>
+
+    <!-- Navegação -->
+    <nav>
+        <a href="#home">Início</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#sobre">Sobre Nós</a>
+        <a href="#contacto">Contactos</a>
+    </nav>
+
+    <!-- Secção Principal -->
+    <section id="home" class="container">
+        <h2>Bem-vindo à Apleasure</h2>
+        <p>A nossa marca traz o melhor da moda urbana para o teu dia-a-dia. Conforto e estilo aliados para te destacar em qualquer situação.</p>
+        <img src="destaque.jpg" alt="Imagem de destaque" style="width:100%; height:auto;">
+    </section>
+
+    <!-- Catálogo de Produtos -->
+    <section id="catalogo" class="container">
+        <h2>Catálogo de Produtos</h2>
+        <div>
+            <img src="produto1.jpg" alt="Produto 1">
+            <img src="produto2.jpg" alt="Produto 2">
+            <img src="produto3.jpg" alt="Produto 3">
+            <img src="produto4.jpg" alt="Produto 4">
+        </div>
+        <p>Em breve, adicionaremos mais produtos. Fica atento!</p>
+    </section>
+
+    <!-- Sobre a Marca -->
+    <section id="sobre" class="container">
+        <h2>Sobre Nós</h2>
+        <p>A Apleasure nasceu da paixão por criar roupas que combinam conforto, estilo e uma atitude descontraída. Cada peça é desenhada para refletir o estilo de vida urbano e moderno.</p>
+    </section>
+
+    <!-- Contactos -->
+    <section id="contacto" class="container">
+        <h2>Contactos</h2>
+        <p>Queres saber mais ou fazer uma parceria? Fala connosco!</p>
+        <p>Email: <a href="mailto:contacto@apleasure.com">contacto@apleasure.com</a></p>
+        <p>Siga-nos nas redes sociais:</p>
+        <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">Twitter</a>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Apleasure. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
